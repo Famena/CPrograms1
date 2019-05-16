@@ -3,13 +3,16 @@ int main()
 {
     int number;
 
-    printf("Enter an integer: ");
+    printf("INPUT: ");
     scanf("%d", &number);
 
     if(number % 2 == 0)
-        printf("%d is even.", number);
+        printf("Even");
     else
-        printf("%d is odd.", number);
+        printf("Odd");
+    else
+        if(number<0);
+    printf("invalid");
 
     return 0;
 }
