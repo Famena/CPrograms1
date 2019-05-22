@@ -1,7 +1,7 @@
-num=float(input("Input:"))
-if num>0:
-print("Output:Positive")
-elif num==0;
-print("Output:Zero")
+num = float(input())
+if (num>0):
+        print("Positive")
+elif(num<0):
+        print("Negative")
 else:
-print(" Output:Negative")
+  print("Zero")
