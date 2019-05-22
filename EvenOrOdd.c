@@ -1,18 +1,15 @@
-#include <stdio.h>
-int main()
+#include<stdio.h>
+void main()
 {
-    int number;
-
-    printf("INPUT: ");
-    scanf("%d", &number);
-
-    if(number % 2 == 0)
-        printf("Even");
-    else
-        printf("Odd");
-    else
-        if(number<0);
-    printf("invalid");
-
-    return 0;
+int a;
+scanf("%d",&a);
+if(a>=0)
+{
+  if(a%2==0)
+  printf("Even");
+  else
+  printf("Odd");
+}
+else
+  printf("Invalid");
 }
